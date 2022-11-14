@@ -1,0 +1,33 @@
+---
+title: "JLedesma_607_Assignment12"
+output: html_document
+date: "2022-11-13"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The recommmender system that I chose to analyze was RottenTomatoes.  It is a movie and tv show review aggregate site mainly, but is also used as a central where you are able to find local movies and showtimes, and movie news.
+
+1)  Scenario Design
+
+i. The target users are people who would like opinions of movies they may or may not choose to watch.  
+
+  ii. Their key goals are to attract people to their site for ad revenue.  
+
+  iii. I can help them accomplish those goals by creating better algorithms, as the site has many way to guage the         likability of a movie, in order for customers to be satisfied with the movie that they choose to watch.
+
+2)  A main feature of the website is something called the tomatometer which is their metric in gauging the quality of the movie.  This is calculated by a simple proportion of good reviews to bad reviews, that of which is only seen after a minimum of 5 reviews of that movie have been posted.  Additional metrics include a score from top critics (authors who have been specifically by rotten tomatoes for their reputation) and an audience score which grades the number of positive audience reviews to negative ones.
+
+3) Moving forward, although the sites display of tomatometer, topic critic score and audience score is great in giving me different measures of likability,  It doesn't truly represent my taste in movies.  I loved Armageddon as a movie as campy as it was, but only scored a 37%.  I would create a way to cater to everyone's individual tastes better by cross referencing the fact that they liked a movie to the specific reviewers that also liked that movie including the audience score.  Based on these factors, you can maybe create a personalized tomotometer that truly represents your taste.
+
+
+
+
+
+
+
+
+
+
